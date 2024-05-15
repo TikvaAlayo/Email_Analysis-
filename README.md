@@ -34,7 +34,7 @@ Date: Tue, 26 Jan 2021 01:41:18 -0500 (EST)
 
 Body Examination: Examine the email body content details, clues, patterns, or anomalies that may indicate malicious intent or other relevant information to verify the true source of the email, detect phishing attempts, or trace the email's path as i found out "Replay to" email and "from email" showed discrpancy leading to a suspicious email.
 
-Attachment Handling: two PDF files attachments were associate with the email. after analyis by using base64 decoding 4 first bytes were showing it was an zip file.
+Attachment Handling: two PDF files attachments were associate with the email. after analyis by using base64 decoding 4 first bytes were showing it was an zip file after byte analysis at  FILE SIGNATURES TABLE at  https://www.garykessler.net/.
 Decrypted zip attacment using Cyberchef : ![Screenshot 2024-05-14 171500](https://github.com/TikvaAlayo/Email_Analysis-/assets/105614307/86b89c48-6bb3-456e-a037-3e651fe3af7f)
 
 Pattern Recognition: patterns in email content, sender behavior, metadata that could indicate suspicious activity and compliance issues.
